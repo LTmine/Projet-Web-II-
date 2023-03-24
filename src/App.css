@@ -1,0 +1,173 @@
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.bar {
+  width: calc(100vw - 600px) ;
+  height: 50px;
+  padding: 0 300px ;
+  display: flex;
+  background-color:darkslategray; 
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 30px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 5px 30px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 5px 30px -1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  
+}
+
+nav a {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  margin: 0 70px;  
+  top: 10px;
+  color: bisque;
+}
+
+.nav-ul {
+  justify-content: space-around;
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+  position: fixed;
+}
+
+.cart-button{
+  color: bisque;
+  height: 40px;
+  width: 40px;
+  background-color: darkslategray;
+  border-radius: 30%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.cart-button:hover{
+  background-color: bisque;
+    color: darkslategray;
+}
+.icon{
+  color: bisque;
+  font-size: 30px;
+  position: fixed;
+  top: 10px;
+  left: 70px;
+}
+.modal{
+  height: 0;
+    width: 0;
+    overflow: hidden;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    transition: all 0.5s ease-in-out;
+}
+.modal.active {
+  height: 70vh;
+  width: 40vw;
+  color: antiquewhite;
+}
+.fond{
+  background-color: cadetblue;
+  height: 1000px;
+}
+
+.intro{
+  width: calc(200vw - 600px) ;
+  background-color: darkslategrey ;
+  color: bisque;
+  padding: 20px;
+  
+  justify-content: space-around;
+  justify-content: space-between;
+  display: fi;
+  text-shadow: bisque;
+  font-size: 25px;
+}
+.intro p{
+  font-size: 20px;
+}
+.intro h2{
+  padding-top: 60px;
+  font-size: 30px;
+}
+.titre{
+  padding-top: 60px;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    margin: auto;
+    color: bisque;
+   
+  
+
+}
+
+.fit{
+  padding-top: 60px;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    margin: auto;
+    color: bisque;
+  }
+.fit h4{
+  margin-left: -300px;
+  font-size: 25px;
+}
+.fit span{
+  margin-left: -450px;
+  margin-top: 290px;
+  color: bisque;
+ 
+}
+.fit img{
+    height: 320px;
+    width: 300px;
+    background-color: darkslategray;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.18);
+    
+}
+.fit input{
+  
+  border-radius: 20%;
+  height: 30px;
+  width: 80px;
+  background-color: darkslategray;
+  color: bisque;
+}
